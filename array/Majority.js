@@ -17,4 +17,4 @@ function majority(arr){
     return -1
 }
 let arr = [1, 1, 2, 1, 3, 5, 1];
-console.log(majority)
+console.log(majority(arr))

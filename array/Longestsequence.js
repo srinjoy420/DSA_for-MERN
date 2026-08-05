@@ -1,5 +1,7 @@
 function longestConsecutive(nums) {
-    let numSet = new Set(nums)        // store all numbers
+    let numSet = new Set(nums) 
+    console.log(numSet);
+           // store all numbers
     let longest = 0
 
     for (let num of numSet) {
